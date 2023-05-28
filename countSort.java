@@ -36,7 +36,6 @@ public class countSort {
         }
 
         int[] tempArray = new int[k + 1];
-
         for (int value : array) {
             ++tempArray[value];
         }
